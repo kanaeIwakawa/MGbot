@@ -1,5 +1,5 @@
 function myFunction() {
-  var options =
+  const options =
     {
       "method" : "post",
       "contentType" : "application/json",
@@ -10,5 +10,4 @@ function myFunction() {
     )
   };
   UrlFetchApp.fetch("https://hooks.slack.com/services/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", options);
-  // ↑ここは自分のWebhook URLに書き換える
 }
